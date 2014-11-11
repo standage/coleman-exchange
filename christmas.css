@@ -1,0 +1,58 @@
+@font-face
+{
+  font-family: GingerbreadHouse;
+  src: url(GingerbreadHouse.ttf);
+}
+
+@font-face
+{
+  font-family: Hallo;
+  src: url(HalloSans.otf);
+}
+
+body
+{
+  color: #900;
+  background: url(gloves.jpg);
+  font-family: Hallo;
+  font-size: 16pt;
+  text-align: center;
+}
+
+div#MainContent
+{
+  background: "#fff";
+  background: rgba(255,255,255, 0.95);
+  height: 25em;
+  margin: 1em auto;
+  padding-top: 5pt;
+  width: 30em;
+}
+
+h1
+{
+  font-family: GingerbreadHouse;
+  font-size: 40pt;
+}
+
+table#GiftTable
+{
+  border-collapse: collapse;
+  margin: 10pt auto;
+  width: 15em;
+}
+
+thead
+{
+  border-bottom: 1px solid #900;
+}
+
+td, th
+{
+  padding: 0 5pt;
+}
+
+select
+{
+  color: #900;
+}

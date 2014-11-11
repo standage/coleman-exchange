@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Coleman Family Christmas Gift Exchange</title>
+    <script type="text/javascript" src="christmas.js"></script>
+    <link rel="stylesheet" type="text/css" href="christmas.css" />
+  </head>
+  <body onload="FillSelect()">
+    <div id="MainContent">
+      <h1>Coleman Family Gift Exchange</h1>
+      <p>
+        Select a year to see the who-has-who list.<br />
+        <select id="YearSelect" onload="FillSelect()" onchange="FillTable()">
+        </select>
+      </p>
+    <table id="GiftTable"></table>
+    </div>
+  </body>
+</html>
